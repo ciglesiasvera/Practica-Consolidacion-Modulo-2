@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin-top: 0%;
+    margin-bottom: 1rem;
+}
+p {text-align: justify;
+
+}
+
+#about {
+    margin-top: 70px;
+}
+
+#contact {
+    background-color: rgb(224, 223, 228);
+}
+
+#about, #skills, #projects, #contact {
+    margin-bottom: 2rem;
+}
+
+.highlighted-text {
+    color: #007bff;
+}
+
+#about-anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+#skills-anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+#projects-anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+#anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+#skills {
+    margin-top: 70px;
+    background-color: rgb(224, 223, 228);
+}
+
+#skills li {
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.card {
+    margin-bottom: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.project-card {
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.project-detail {
+    display: none;
+    font-style: italic;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.project-image {
+    cursor: pointer;
+    transition: opacity 0.2s;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.project-image:hover {
+    opacity: 0.8;
+}
+
+header {
+    margin-top:0px;
+    margin-bottom: 0px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegúrate de que el header esté por encima de otros elementos */
+}
+
+header, footer {
+    
+    margin-top: 2rem;
+    background-color: #343a40;
+    color: white;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: lightgray;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+    }
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    }
+
+.carousel-item {
+    height: 32rem;
+    }
+
+    img {
+        height: auto;
+    }
+
+.modal-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.3rem;
+}
+
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+.modal-body {
+    padding: 1rem 1rem;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
