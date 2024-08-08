@@ -177,3 +177,7 @@ header, footer {
     margin-bottom: 0;
     line-height: 1.5;
 }
+
+button {
+    margin-top: 10px;
+}

@@ -24,7 +24,7 @@ $(document).ready(function() {
 
     // Cambiar color al hacer clic en "Sobre Mí"
     $('#about').click(function() {
-        $(this).css({"background":"grey", "color": "white"});
+        $(this).css({"background":"grey", "color": "red"});
     }).mouseleave(function(){
         $(this).css({"background":"white","color":"black"});
     })
